@@ -1,0 +1,458 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f3f3f3;
+}
+.header{
+    background: url(img/Rectangle\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: absolute;
+}
+.navbar{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    margin-left: 120px;
+    margin-top: 65px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin-top: 70px;
+    align-items: center;
+}
+.header ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 7px;
+    margin-left: 50px;
+    
+}
+.header ul .book{
+   padding: 10px;
+   background: rgba(222, 188, 100, 1);
+   color: black;
+}
+.sub-text{
+    color: white;
+    text-align: center;
+    font-family: sans-serif; 
+    font-size: 45px;
+    line-height: 3.9;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+    margin-bottom: 130px;
+    margin-left: 80px;
+}
+.boxes a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+.box-a img{
+    background: rgba(229, 229, 229, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.box-a a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.box-b img{
+    background: rgba(229, 229, 229, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.box-b a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.box-c img{
+    background: rgba(229, 229, 229, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.box-c a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+}
+.box-d img{
+    background: rgba(229, 229, 229, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.box-d a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgba(80, 80, 80, 1);
+    font-weight: lighter;
+    margin-left: 15px;
+
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 80px;
+    height: 100vh;
+    
+}
+.card-a{
+    background: #fff;
+    box-shadow: black;
+    padding: 30px;
+    line-height: 1.3;
+    margin-right: 20px;
+}
+.card-a h2{
+    padding: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:  rgba(80, 80, 80, 1);
+    line-height: 2;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    
+
+}
+.name{
+    padding: 13px 10px;
+    width: 250px;
+    color: rgba(80, 80, 80, 1);
+    font-size: 19px;
+    font-weight: lighter;
+}
+.card-a a{
+    padding: 15px 45px;
+    background: rgba(222, 188, 100, 1);
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.card-b{
+    margin-top: 120px;
+    line-height: 5px;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: white;
+    padding: 20px 15px;
+    background: rgba(24, 43, 71, 1);
+    width: 390px; 
+    font-size: 12px; 
+    align-items: center;  
+}
+.info{
+    background: white;
+    font-family: sans-serif;
+    color: rgba(80, 80, 80, 1);
+    padding: 15px 17px;
+    width: 390px;
+    line-height: 1.2;
+    height: 45vh;
+}
+.info h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 2px;
+    margin-top: 20px;
+    line-height: 2;
+}
+.info p{
+    font-size: 20px;
+    line-height: 1.4;
+    
+}
+.info a{
+    padding: 15px 30px;
+    background: rgba(222, 188, 100, 1);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 5;
+}
+
+
+
+.card-c{
+    margin-top: 120px;
+    line-height: 5px;
+}
+.still{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: white;
+    padding: 20px 15px;
+    background: rgba(24, 43, 71, 1);
+    width: 390px; 
+    font-size: 12px; 
+    align-items: center;  
+}
+.for{
+    background: white;
+    font-family: sans-serif;
+    color: rgba(80, 80, 80, 1);
+    padding: 15px 17px;
+    width: 390px;
+    line-height: 1.2;
+    height: 45vh;
+}
+.for h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 2px;
+    margin-top: 20px;
+    line-height: 2;
+}
+.for p{
+    font-size: 20px;
+    line-height: 1.4;
+    
+}
+.for a{
+    padding: 15px 30px;
+    background: rgba(222, 188, 100, 1);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 5;
+}
+
+
+
+
+.cont{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 80px;
+    height: 100vh;
+    
+}
+.card-d{
+    margin-top: 100px;
+    line-height: 5px;
+    margin-right: 0;
+}
+.dee{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: white;
+    padding: 20px 15px;
+    background: rgba(24, 43, 71, 1);
+    width: 390px; 
+    font-size: 12px; 
+    align-items: center;  
+}
+.more{
+    background: white;
+    font-family: sans-serif;
+    color: rgba(80, 80, 80, 1);
+    padding: 15px 17px;
+    width: 390px;
+    line-height: 1.2;
+    height: 45vh;
+}
+.more h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 2px;
+    margin-top: 20px;
+    line-height: 2;
+}
+.more p{
+    font-size: 20px;
+    line-height: 1.4;
+    
+}
+.more a{
+    padding: 15px 30px;
+    background: rgba(222, 188, 100, 1);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 5;
+}
+
+
+.card-e{
+    margin-top: 100px;
+    line-height: 5px;
+    margin-left: 40px;
+}
+.ewe{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: white;
+    padding: 20px 15px;
+    background: rgba(24, 43, 71, 1);
+    width: 390px; 
+    font-size: 12px; 
+    align-items: center;  
+}
+.word{
+    background: white;
+    font-family: sans-serif;
+    color: rgba(80, 80, 80, 1);
+    padding: 15px 17px;
+    width: 390px;
+    line-height: 1.2;
+    height: 45vh;
+}
+.word h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 2px;
+    margin-top: 20px;
+    line-height: 2;
+}
+.word p{
+    font-size: 20px;
+    line-height: 1.4;
+    
+}
+.word a{
+    padding: 15px 30px;
+    background: rgba(222, 188, 100, 1);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 5;
+}
+
+
+.footer{
+    margin-top: 1000px;
+    background: rgba(24, 43, 71, 1);
+    padding: 90px;
+}
+.sub-foot{
+    display: flex;
+    justify-content: space-around;
+}
+.footb ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.footb a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+}
+li .company{
+    font-weight: bold;
+    line-height: 2;
+}
+.log{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 4;
+    color: white;
+}
+.bae h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 20px;
+    line-height: 1.3;
+}
+.bae h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.sub{
+    margin-top: 60px;
+    padding: 13px 10px;
+    width: 350px;
+    font-size: 19px;
+    font-weight: lighter;
+    
+}
+.mit{
+    padding: 13px 10px;
+    width: 100px;
+    font-size: 19px;
+    font-weight: lighter;
+    background: rgba(222, 188, 100, 1);
+    color: black;
+    cursor: pointer;
+}
+.numb {
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+.numb h2{
+    font-size: 20px;
+    line-height: 2;
+}
+.copy{
+    background: rgba(14, 28, 50, 1);
+    padding: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+
+
