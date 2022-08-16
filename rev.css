@@ -129,25 +129,50 @@ body{
     background: white;
     box-shadow: black;
     color: rgba(80, 80, 80, 1);
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(2, 1fr);
     padding: 20px 30px;
+    margin: 20px;
+}
+.turn{
+    display: flex;
+    justify-content: space-between;
 }
 .top{
     line-height: 3;
 }
+.top img{
+    width: 550px;
+    margin-top: 50px;
+}
 .word{
-    align-items: center;
-    margin-top: 90px;
+    margin-top: 100px;
     line-height: 2;
     font-size: 20px;
 }
-.word h5{
-    font-size: 20px;
+.word h2{
+    font-weight: bold;
 }
-.word h6{
+.word h4{
+    margin-top: 50px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.word h1{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.word h3{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.conf a{
+    padding: 10px;
+    color: black;
+    background: rgba(222, 188, 100, 1);
+    text-decoration: none;
     font-size: 20px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 60px;
 }
 .talk{
     color: rgba(80, 80, 80, 1);
@@ -157,7 +182,7 @@ body{
 }
 
 .footer{
-    margin-top: 150px;
+    margin-top: 200px;
     background: rgba(24, 43, 71, 1);
     padding: 90px;
 }
